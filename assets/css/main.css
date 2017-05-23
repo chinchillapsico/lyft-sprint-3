@@ -1,8 +1,73 @@
 /*
 Colors: 
-#E54E79;
-#E56385;
-#00B2A9;
-#75726C;
-#EDE9E2
+#E54E79; rosa barbie
+#E56385; rosa barbie claro
+#00B2A9; celeste
+#75726C; plomo
+#EDE9E2; casi blanco
+#E54E79; fucsia 
 */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway";
+	font-size: 16px;
+	
+}
+header{
+	position: relative;
+	margin: 0;
+}
+/* welcome session*/
+#welcome{
+	background: url ("assets/img/cropped-Lyft-Promo-Codes-car-1.jpg");
+	background-size: cover;/*Background covers the entire surface*/
+	background-position: center;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	height: 700px;
+	width:1300px;
+}
+#home{
+	position: absolute;
+	right: 40px;
+
+}
+#head-zone{
+	position: absolute;
+	
+	height: 90px;
+	width: 1300px;
+	margin: 0;
+}
+.logo{
+
+	padding: 0;
+	width: 90px;
+	height: 60px;
+	position: absolute;
+	left: 120px;
+}
+ul{
+	list-style: none;/*así no tienen el símbolo por defecto*/
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #F50057;
+}
+ul li{
+	display: inline-block;/*de esta manera los elementos se colocan de manera horizontal*/
+}
+ul li a{
+	display: inline-block;
+	color: white;
+	padding: 26px;
+	text-decoration: none;
+}
+li a:hover {/*Al dar estilos al hover del enlace logramos que al pasar el cursor por el enlace este cambie su color(background/texto*/
+	background-color: #F50057;
+	color: #333;
+}
+
