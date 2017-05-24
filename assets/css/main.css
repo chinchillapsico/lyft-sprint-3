@@ -14,22 +14,13 @@ Colors:
 	font-family: "Raleway";
 	font-size: 16px;
 	
+	
 }
 header{
 	position: relative;
 	margin: 0;
 }
-/* welcome session*/
-#welcome{
-	background: url ("assets/img/cropped-Lyft-Promo-Codes-car-1.jpg");
-	background-size: cover;/*Background covers the entire surface*/
-	background-position: center;
-	padding: 0;
-	text-align: center;
-	margin: 0;
-	height: 700px;
-	width:1300px;
-}
+
 #home{
 	position: absolute;
 	right: 40px;
@@ -70,4 +61,35 @@ li a:hover {/*Al dar estilos al hover del enlace logramos que al pasar el cursor
 	background-color: #F50057;
 	color: #333;
 }
+#wrapper {
+	position: relative;
+	min-height: 100%;
+	
+}
+#main-block {
+	background: url("../img/a.jpg")no-repeat  center fixed;
+	background-size: cover;/*Background covers the entire surface*/
+	position: relative;
+	z-index: 1;
+	top: 90px; 
+	height: 750px;
+	padding-top: 30px; /* height of navbar */
+	
+}
 
+#main-block div {
+	background: #EDE9E2;
+	color: #000000;
+	width: 400px;
+	height: 500px;
+	margin-left: 65%;
+	padding: 30px;
+	border-radius: 3px;
+  overflow: auto;
+  text-transform: uppercase;
+}
+
+h2{
+	font-size: 16px;
+	color: #00B2A9;
+}
