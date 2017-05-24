@@ -5,6 +5,7 @@
 	<title>Title</title>
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:500,700,900" rel="stylesheet">
+	<script src="https://use.fontawesome.com/8f8db047c3.js"></script>
 </head>
 <body>
 
@@ -25,8 +26,13 @@
             <div>
 				<h2>Turn miles into money</h2><br>
 				<h4> sing up to drive lyft</h4><br>
-				<button id="drive">become a driver ❤ </button><br>
+				<form action="#">
+                    <input type="text" id="num"><br> <br>
+                    <button id="drive">become a driver ❤ </button><br>
+                </form>
+				
 				<p>Sing up to drive lyft</p><br>
+
 				<p>Already applied? Check the status of your aplication here.</p><br>
 				<p>Earn money for inviting friends to drive. Learn more.</p>
 			</div>
@@ -38,25 +44,48 @@
 			<h1>play with lyft</h1>
 			<div class="play-with-lift">
 				<div id="coordenate" class="coordinate">
+				<i class="fa fa-car" aria-hidden="true"></i>
 					<input type="text" id="x" class="x" placeholder="X coordinate">
+					<i class="fa fa-car" aria-hidden="true"></i>
 					<input type="text" id="y" class="y" placeholder="Y coordinate">
-					<button>START</button>
+					<button id="start">START</button>
 				</div>
-				<div id="caja-juego"></div> <!-- aquí irá el juego del carrito, div vacío-->
+				<div id="tablero"></div> <!-- aquí irá el juego del carrito, div vacío-->
 			</div>
  
-    <footer>
-    <h2>Sprint 3-Project</h2>
-    <div>
-    	<h3>Links</h3>
-    	<link rel="stylesheet" type="text/css" href="">
-    	<link rel="stylesheet" type="text/css" href="">
-    	<link rel="stylesheet" type="text/css" href="">
-    	<link rel="stylesheet" type="text/css" href="">
+   <footer class="footer-distributed">
 
-    </div>
-    	
-    </footer>
+	<div class="footer-left">
+
+		<span>
+			<img class="logo" src=" assets/img/logo-white.png">
+		</span><br><br><br>
+
+				<p class="footer-links">
+					<a href="https://www.lyft.com/">Home </a> -
+					<a href="https://www.lyft.com/cities">Cities </a> -
+					<a href="https://help.lyft.com/hc/en-us">Help </a> -
+					<a href="https://www.lyft.com/signup">Sing up </a>
+				</p>
+
+				<p class="footer-company-name">© 2017 Lyft, Inc.</p> 
+			</div>
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Lyft is the easiest way to get an affordable ride in minutes. Learn more about our coverage area, rates, and how the Lyft app works.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="https://www.facebook.com/lyft/"><i class="fa fa-facebook"></i></a>
+					<a href="https://twitter.com/lyft"><i class="fa fa-twitter"></i></a>
+				</div>
+
+			</div>
+
+		</footer>
 
 	<script src="assets/js/main.js"></script>
 </body>
