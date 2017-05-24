@@ -58,8 +58,8 @@ ul li a{
 	text-decoration: none;
 }
 a:hover, button:hover {/*Al dar estilos al hover del enlace logramos que al pasar el cursor por el enlace este cambie su color(background/texto*/
-	background-color: #FFE900;
-	color: #333;
+	background-color: #00B2A9;
+	color: #212121;
 }
 
 #wrapper {
@@ -95,7 +95,13 @@ h2{
 	color: #00B2A9;
 }
 #already{
-	
+	font-size: 15px;
+	color: #212121;
+	text-transform: none;
+	text-decoration: none;
+	text-align:left;
+	padding: 0;
+	border: 0;
 
 }
 #num{
@@ -204,7 +210,7 @@ h2{
 
 .footer-distributed h3{
 	color:  #E56385;
-	font:  36px 'Cookie', cursive;
+	font:  36px, cursive;
 	margin: 0;
 }
 
@@ -234,48 +240,6 @@ h2{
 	margin: 0;
 }
 
-/* Footer Center */
-
-.footer-distributed .footer-center{
-	width: 35%;
-}
-
-.footer-distributed .footer-center i{
-	background-color:  #33383b;
-	color: #ffffff;
-	font-size: 25px;
-	width: 38px;
-	height: 38px;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
-	vertical-align: middle;
-}
-
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
-}
-
-.footer-distributed .footer-center p{
-	display: inline-block;
-	color: #ffffff;
-	vertical-align: middle;
-	margin:0;
-}
-
-.footer-distributed .footer-center p span{
-	display:block;
-	font-weight: normal;
-	font-size:14px;
-	line-height:2;
-}
-
-.footer-distributed .footer-center p a{
-	color:  #5383d3;
-	text-decoration: none;;
-}
 
 
 /* Footer Right */
